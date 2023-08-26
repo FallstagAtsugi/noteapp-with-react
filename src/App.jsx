@@ -34,7 +34,7 @@ function App() {
         activeNote={activeNote}
         setActiveNote={setActiveNote}
       />
-      <Main />
+      <Main activeNote={activeNote} />
     </div>
   );
 }
