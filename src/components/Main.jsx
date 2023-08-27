@@ -2,8 +2,6 @@ import React from "react";
 import "./Main.css";
 
 const Main = () => {
-  const test = () => {};
-
   return (
     <div className="app-main">
       <div className="app-main-note-edit">
