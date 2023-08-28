@@ -33,12 +33,14 @@ function App() {
     //修正された新しいノートの配列を返す
     const updateNotesArray = notes.map((note) => {
       if (note.id === updateNote.id) {
+        console.log(updateNote);
         return updateNote;
       } else {
         return note;
       }
     });
 
+    console.log(updateNotesArray);
     setNotes(updateNotesArray);
   };
 
